@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  
+:root{
+--body-bg-color: #22212C;
+--text-color: #837E9F;
+--bg-cards: #302F3D;
+--bg-techs: #CB92B1;
+}
+
+body{
+	background-color: var(--body-bg-color);
+	padding: 1.5rem;
+}
+
+main{
+    display: flex;
+}
+
+.cards{
+	display: flex;
+	border-radius: 1rem;
+	background-color: var(--bg-cards);
+	margin-bottom: 1rem;
+	padding: 1.875rem;
+	transition: box-shadow 400ms;
+}
+
+.cards:hover{
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.39);
+}
+
+.cards-tittle{
+	font-size: 1.25rem;
+	font-weight: 700;
+}

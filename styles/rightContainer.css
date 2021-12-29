@@ -1,0 +1,80 @@
+.right-container{
+    /* display: flex; */
+    width: 100%;
+}
+
+.myprojects{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.myprojects p{
+    font-size: 0.8rem;
+}
+
+.myprojects span{
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.myprojects span:hover{
+    color: pink;
+}
+
+.projects-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.project{
+    flex-direction: column;
+}
+
+.project-header{
+    display: flex;
+    align-items: center;
+}
+
+.project-header img{
+    margin-right: 0.75rem;
+}
+.project-header .project-tittle{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.project .project-description{
+    font-size: 0.87rem;
+}
+
+.project-details{
+    margin-top: 1rem;
+}
+
+.project-stats{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+    font-size: 0.87rem;
+}
+
+.branch-stars-container{
+    display: flex;
+}
+.project-stats span{
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+
+.project-stats span.language{
+    font-size: 0.87rem;
+}
+
+.branch img, .stars-container img{
+    margin-right: 0.3rem;
+}

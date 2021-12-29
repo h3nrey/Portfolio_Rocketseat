@@ -1,0 +1,44 @@
+.posts-grid{
+    display: grid;
+    margin-top: 1rem;
+}
+
+.posts-grid .post{
+    /* flex-direction: column; */
+}
+
+.post-text-container{
+    margin-right: 1.5rem;
+}
+.post .post-tittle{
+    font-size: 1.25rem;
+}
+
+.post .post-description{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.post-details{
+    margin-top: 1.2rem;
+}
+
+.post-details .rounded-elipse{
+    margin: 0 1rem;
+}
+.post-details .post-tags span{
+    color: pink;
+    margin-right: 0.25rem;
+    transition: color 400ms;
+}
+
+.post-details .post-tags span:hover{
+    color: deeppink;
+}
+.post-cover-container{
+    display: flex;
+    background-image: url("https://cdn.pixabay.com/photo/2021/12/15/10/21/chess-6872239_960_720.jpg");
+    width: 20rem;
+    height: 100%;
+    border-radius: 0.8rem;
+}
